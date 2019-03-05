@@ -21,6 +21,7 @@
 		F6C7F72F222D859000B2A735 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F72E222D859000B2A735 /* InsetTextField.swift */; };
 		F6C7F731222D896F00B2A735 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F730222D896F00B2A735 /* ShadowView.swift */; };
 		F6C7F733222D8AC500B2A735 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F732222D8AC500B2A735 /* AuthService.swift */; };
+		F6C7F735222EF04900B2A735 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F734222EF04900B2A735 /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F6C7F72E222D859000B2A735 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		F6C7F730222D896F00B2A735 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		F6C7F732222D8AC500B2A735 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F6C7F734222EF04900B2A735 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F6C7F711222CECCA00B2A735 /* GroupsVC.swift */,
 				F6C7F72A222D850700B2A735 /* AuthVC.swift */,
 				F6C7F72C222D854200B2A735 /* LoginVC.swift */,
+				F6C7F734222EF04900B2A735 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C7F735222EF04900B2A735 /* MeVC.swift in Sources */,
 				F6C7F72B222D850700B2A735 /* AuthVC.swift in Sources */,
 				F6C7F712222CECCA00B2A735 /* GroupsVC.swift in Sources */,
 				F6C7F72D222D854200B2A735 /* LoginVC.swift in Sources */,
