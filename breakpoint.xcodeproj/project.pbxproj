@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		E72D9D5D3113C27B69FC3F7E /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0E20C676CA781798628A54 /* Pods_breakpoint.framework */; };
 		F6C7F70E222CECCA00B2A735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F70D222CECCA00B2A735 /* AppDelegate.swift */; };
-		F6C7F710222CECCA00B2A735 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F70F222CECCA00B2A735 /* FirstViewController.swift */; };
-		F6C7F712222CECCA00B2A735 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F711222CECCA00B2A735 /* SecondViewController.swift */; };
+		F6C7F710222CECCA00B2A735 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F70F222CECCA00B2A735 /* FeedVC.swift */; };
+		F6C7F712222CECCA00B2A735 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F711222CECCA00B2A735 /* GroupsVC.swift */; };
 		F6C7F715222CECCA00B2A735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C7F713222CECCA00B2A735 /* Main.storyboard */; };
 		F6C7F717222CECCB00B2A735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C7F716222CECCB00B2A735 /* Assets.xcassets */; };
 		F6C7F71A222CECCB00B2A735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C7F718222CECCB00B2A735 /* LaunchScreen.storyboard */; };
@@ -29,8 +29,8 @@
 		8E0E20C676CA781798628A54 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C7F70A222CECCA00B2A735 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C7F70D222CECCA00B2A735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6C7F70F222CECCA00B2A735 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F6C7F711222CECCA00B2A735 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F6C7F70F222CECCA00B2A735 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		F6C7F711222CECCA00B2A735 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		F6C7F714222CECCA00B2A735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6C7F716222CECCB00B2A735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6C7F719222CECCB00B2A735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		F6C7F721222CEE7600B2A735 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F6C7F70F222CECCA00B2A735 /* FirstViewController.swift */,
-				F6C7F711222CECCA00B2A735 /* SecondViewController.swift */,
+				F6C7F70F222CECCA00B2A735 /* FeedVC.swift */,
+				F6C7F711222CECCA00B2A735 /* GroupsVC.swift */,
 				F6C7F72A222D850700B2A735 /* AuthVC.swift */,
 				F6C7F72C222D854200B2A735 /* LoginVC.swift */,
 			);
@@ -272,12 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C7F72B222D850700B2A735 /* AuthVC.swift in Sources */,
-				F6C7F712222CECCA00B2A735 /* SecondViewController.swift in Sources */,
+				F6C7F712222CECCA00B2A735 /* GroupsVC.swift in Sources */,
 				F6C7F72D222D854200B2A735 /* LoginVC.swift in Sources */,
 				F6C7F733222D8AC500B2A735 /* AuthService.swift in Sources */,
 				F6C7F70E222CECCA00B2A735 /* AppDelegate.swift in Sources */,
 				F6C7F731222D896F00B2A735 /* ShadowView.swift in Sources */,
-				F6C7F710222CECCA00B2A735 /* FirstViewController.swift in Sources */,
+				F6C7F710222CECCA00B2A735 /* FeedVC.swift in Sources */,
 				F6C7F72F222D859000B2A735 /* InsetTextField.swift in Sources */,
 				F6C7F729222CF60A00B2A735 /* DataService.swift in Sources */,
 			);
