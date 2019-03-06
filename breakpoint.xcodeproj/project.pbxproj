@@ -23,6 +23,7 @@
 		F6C7F735222EF04900B2A735 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F734222EF04900B2A735 /* MeVC.swift */; };
 		F6C7F737222F628900B2A735 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F736222F628900B2A735 /* CreatePostVC.swift */; };
 		F6C7F739222F657200B2A735 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C7F738222F657100B2A735 /* GoogleService-Info.plist */; };
+		F6C7F73B222F676D00B2A735 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73A222F676D00B2A735 /* UIViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F6C7F734222EF04900B2A735 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		F6C7F736222F628900B2A735 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		F6C7F738222F657100B2A735 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6C7F73A222F676D00B2A735 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		F6C7F724222CEEAA00B2A735 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F6C7F73A222F676D00B2A735 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C7F73B222F676D00B2A735 /* UIViewExt.swift in Sources */,
 				F6C7F735222EF04900B2A735 /* MeVC.swift in Sources */,
 				F6C7F72B222D850700B2A735 /* AuthVC.swift in Sources */,
 				F6C7F712222CECCA00B2A735 /* GroupsVC.swift in Sources */,
