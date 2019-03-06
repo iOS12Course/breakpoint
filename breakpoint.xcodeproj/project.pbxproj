@@ -25,6 +25,7 @@
 		F6C7F739222F657200B2A735 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C7F738222F657100B2A735 /* GoogleService-Info.plist */; };
 		F6C7F73B222F676D00B2A735 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73A222F676D00B2A735 /* UIViewExt.swift */; };
 		F6C7F73D222F6C6B00B2A735 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73C222F6C6B00B2A735 /* FeedCell.swift */; };
+		F6C7F73F222F6DE800B2A735 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73E222F6DE800B2A735 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F6C7F738222F657100B2A735 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6C7F73A222F676D00B2A735 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		F6C7F73C222F6C6B00B2A735 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		F6C7F73E222F6DE800B2A735 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		F6C7F723222CEE9400B2A735 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6C7F73E222F6DE800B2A735 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				F6C7F710222CECCA00B2A735 /* FeedVC.swift in Sources */,
 				F6C7F72F222D859000B2A735 /* InsetTextField.swift in Sources */,
 				F6C7F729222CF60A00B2A735 /* DataService.swift in Sources */,
+				F6C7F73F222F6DE800B2A735 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
