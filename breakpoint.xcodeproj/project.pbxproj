@@ -26,6 +26,7 @@
 		F6C7F73B222F676D00B2A735 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73A222F676D00B2A735 /* UIViewExt.swift */; };
 		F6C7F73D222F6C6B00B2A735 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73C222F6C6B00B2A735 /* FeedCell.swift */; };
 		F6C7F73F222F6DE800B2A735 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F73E222F6DE800B2A735 /* Message.swift */; };
+		F6C7F7412235D33400B2A735 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F7402235D33400B2A735 /* CreateGroupsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		F6C7F73A222F676D00B2A735 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		F6C7F73C222F6C6B00B2A735 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F6C7F73E222F6DE800B2A735 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F6C7F7402235D33400B2A735 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				F6C7F72C222D854200B2A735 /* LoginVC.swift */,
 				F6C7F734222EF04900B2A735 /* MeVC.swift */,
 				F6C7F736222F628900B2A735 /* CreatePostVC.swift */,
+				F6C7F7402235D33400B2A735 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				F6C7F712222CECCA00B2A735 /* GroupsVC.swift in Sources */,
 				F6C7F72D222D854200B2A735 /* LoginVC.swift in Sources */,
 				F6C7F733222D8AC500B2A735 /* AuthService.swift in Sources */,
+				F6C7F7412235D33400B2A735 /* CreateGroupsVC.swift in Sources */,
 				F6C7F70E222CECCA00B2A735 /* AppDelegate.swift in Sources */,
 				F6C7F731222D896F00B2A735 /* ShadowView.swift in Sources */,
 				F6C7F737222F628900B2A735 /* CreatePostVC.swift in Sources */,
