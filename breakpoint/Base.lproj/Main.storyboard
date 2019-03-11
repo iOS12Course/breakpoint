@@ -711,6 +711,7 @@
                             <constraint firstAttribute="trailing" secondItem="foi-bd-rgv" secondAttribute="trailing" id="MRV-Uk-zS4"/>
                             <constraint firstItem="9QN-DW-mFL" firstAttribute="leading" secondItem="9HI-W6-s7f" secondAttribute="leadingMargin" id="MgM-oM-0WN"/>
                             <constraint firstItem="foi-bd-rgv" firstAttribute="leading" secondItem="9HI-W6-s7f" secondAttribute="leading" id="MmH-D1-FXj"/>
+                            <constraint firstItem="X6Y-N4-HvZ" firstAttribute="top" secondItem="foi-bd-rgv" secondAttribute="bottom" id="Qe0-hP-xjt"/>
                             <constraint firstAttribute="trailing" secondItem="ZS4-Xf-sO5" secondAttribute="trailing" id="W3s-h9-xFU"/>
                             <constraint firstAttribute="bottom" secondItem="X6Y-N4-HvZ" secondAttribute="bottom" id="XKS-r2-Q9Z"/>
                             <constraint firstAttribute="trailing" secondItem="X6Y-N4-HvZ" secondAttribute="trailing" id="XY9-kL-LNs"/>
@@ -719,7 +720,6 @@
                             <constraint firstItem="9QN-DW-mFL" firstAttribute="trailing" secondItem="9HI-W6-s7f" secondAttribute="trailingMargin" id="ohs-Ol-IFl"/>
                             <constraint firstItem="ZS4-Xf-sO5" firstAttribute="leading" secondItem="9HI-W6-s7f" secondAttribute="leading" id="uDa-Zz-Mg8"/>
                             <constraint firstItem="9QN-DW-mFL" firstAttribute="top" secondItem="ZS4-Xf-sO5" secondAttribute="bottom" constant="8" id="wEu-Fm-LaL"/>
-                            <constraint firstItem="X6Y-N4-HvZ" firstAttribute="top" secondItem="foi-bd-rgv" secondAttribute="bottom" id="z7n-b5-HWd"/>
                         </constraints>
                     </view>
                     <connections>
