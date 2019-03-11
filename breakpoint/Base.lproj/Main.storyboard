@@ -568,7 +568,7 @@
         <!--Group FeedVC-->
         <scene sceneID="TZR-wQ-Z8x">
             <objects>
-                <viewController id="lMa-BX-cFo" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="lMa-BX-cFo" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M72-pq-m19"/>
                         <viewControllerLayoutGuide type="bottom" id="39T-jV-QVZ"/>
@@ -580,8 +580,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZS4-Xf-sO5">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRi-7c-5LE">
-                                        <rect key="frame" x="87.5" y="34.5" width="200" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRi-7c-5LE">
+                                        <rect key="frame" x="87.5" y="35" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="6VV-rG-SEv"/>
                                             <constraint firstAttribute="width" constant="200" id="v5q-xv-Bw0"/>
@@ -590,8 +590,8 @@
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-2V-hUb">
-                                        <rect key="frame" x="20" y="34" width="12" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-2V-hUb">
+                                        <rect key="frame" x="20" y="34.5" width="12" height="22"/>
                                         <state key="normal" image="backIcon"/>
                                         <connections>
                                             <action selector="backBtnWasPressed:" destination="lMa-BX-cFo" eventType="touchUpInside" id="Sk7-bJ-onr"/>
@@ -600,6 +600,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="pQr-2V-hUb" firstAttribute="top" secondItem="ZS4-Xf-sO5" secondAttribute="top" constant="34.5" id="KYO-lb-yH7"/>
                                     <constraint firstAttribute="height" constant="70" id="YzR-3H-oED"/>
                                     <constraint firstItem="WRi-7c-5LE" firstAttribute="centerY" secondItem="pQr-2V-hUb" secondAttribute="centerY" id="d7n-4v-Ls3"/>
                                     <constraint firstItem="pQr-2V-hUb" firstAttribute="leading" secondItem="ZS4-Xf-sO5" secondAttribute="leading" constant="20" id="xnX-3U-jQH"/>
