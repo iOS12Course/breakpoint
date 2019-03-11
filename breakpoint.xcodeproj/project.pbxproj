@@ -13,6 +13,7 @@
 		F63580A322360A0700CF0B04 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63580A222360A0700CF0B04 /* GroupFeedCell.swift */; };
 		F63580A722360B0700CF0B04 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63580A622360B0700CF0B04 /* GroupFeedVC.swift */; };
 		F63580A922361B4C00CF0B04 /* TableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63580A822361B4C00CF0B04 /* TableViewExt.swift */; };
+		F63580AB22361C1600CF0B04 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63580AA22361C1600CF0B04 /* UIViewControllerExt.swift */; };
 		F6C7F70E222CECCA00B2A735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F70D222CECCA00B2A735 /* AppDelegate.swift */; };
 		F6C7F710222CECCA00B2A735 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F70F222CECCA00B2A735 /* FeedVC.swift */; };
 		F6C7F712222CECCA00B2A735 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7F711222CECCA00B2A735 /* GroupsVC.swift */; };
@@ -44,6 +45,7 @@
 		F63580A222360A0700CF0B04 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		F63580A622360B0700CF0B04 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		F63580A822361B4C00CF0B04 /* TableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExt.swift; sourceTree = "<group>"; };
+		F63580AA22361C1600CF0B04 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		F6C7F70A222CECCA00B2A735 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C7F70D222CECCA00B2A735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C7F70F222CECCA00B2A735 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				F6C7F73A222F676D00B2A735 /* UIViewExt.swift */,
 				F63580A822361B4C00CF0B04 /* TableViewExt.swift */,
+				F63580AA22361C1600CF0B04 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				F6C7F733222D8AC500B2A735 /* AuthService.swift in Sources */,
 				F6C7F7412235D33400B2A735 /* CreateGroupsVC.swift in Sources */,
 				F63580A12235F21D00CF0B04 /* Group.swift in Sources */,
+				F63580AB22361C1600CF0B04 /* UIViewControllerExt.swift in Sources */,
 				F6C7F7432235D6AD00B2A735 /* UserCell.swift in Sources */,
 				F6C7F70E222CECCA00B2A735 /* AppDelegate.swift in Sources */,
 				F63580A922361B4C00CF0B04 /* TableViewExt.swift in Sources */,
